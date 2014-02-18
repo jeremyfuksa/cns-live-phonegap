@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Cocktail Napkin Studios": {
+            "applicationId": "CuCrLQHZbcRyQZpS3jMDtYBobhcqxgeO4R5OvwNh", 
+            "masterKey": "LJbXxpsMhckcCaYIkfo8VAEFIuT2grs8NDS8S0yS"
+        }, 
+        "_default": {
+            "link": "Cocktail Napkin Studios"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.7"
+    }
+}
