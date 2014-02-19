@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.cocktailnapkinstudios.CNSLiveStream" version="1.2.13">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.cocktailnapkinstudios.CNSLiveStream" version="1.2.14">
 
     <name>Cocktail Napkin Studios Live</name>
 
@@ -46,7 +46,7 @@ Receive push notifications when new episodes are being recorded and find out how
 
     <!-- Plugins can also be added here. -->
     <!-- <gap:plugin name="com.phonegap.plugins.PushPlugin"/> -->
-    <gap:plugin name="com.pushwoosh.plugins.pushwoosh"/>
+    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.0.1"/>
 
 	
     <!-- Define app icon for each platform. -->
