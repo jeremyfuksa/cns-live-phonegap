@@ -1,20 +1,20 @@
-var PushWoosh = {	
+var PushWoosh = {
 	getHWId : function() {
 		return device.uuid;
 	},
-	
+
 	register : function(token, lambda, lambdaerror) {
 		var method = 'POST';
 		var url = PushWoosh.baseurl + 'registerDevice';
-		
+
 		var offset = new Date().getTimezoneOffset() * 60;	//in seconds
-		
+
 		var language = window.navigator.language;
 		var lang = 'en';
         if(language) {
-             lang = language.substring(0,2); 
+             lang = language.substring(0,2);
         }
-		
+
 		var deviceType = 1;
 		if (device.platform == 'android' || device.platform == 'Android') {
 			deviceType = 3;
@@ -34,11 +34,11 @@ var PushWoosh = {
 		payload = (params) ? JSON.stringify(params) : '';
 		PushWoosh.helper(url, method, payload, lambda, lambdaerror);
 	},
-	
+
 	unregister : function(lambda, lambdaerror) {
 		var method = 'POST';
 		var url = PushWoosh.baseurl + 'unregisterDevice';
-		
+
 		var params = {
 				request : {
 					application : PushWoosh.appCode,
@@ -49,11 +49,11 @@ var PushWoosh = {
 		payload = (params) ? JSON.stringify(params) : '';
 		PushWoosh.helper(url, method, payload, lambda, lambdaerror);
 	},
-	
+
 	sendBadge : function(badgeNumber, lambda, lambdaerror) {
 		var method = 'POST';
 		var url = PushWoosh.baseurl + 'setBadge';
-		
+
 		var params = {
 				request : {
 					application : PushWoosh.appCode,
@@ -69,7 +69,7 @@ var PushWoosh = {
 	sendAppOpen : function(lambda, lambdaerror) {
 		var method = 'POST';
 		var url = PushWoosh.baseurl + 'applicationOpen';
-		
+
 		var params = {
 				request : {
 					application : PushWoosh.appCode,
@@ -84,7 +84,7 @@ var PushWoosh = {
 	sendPushStat : function(hashValue, lambda, lambdaerror) {
 		var method = 'POST';
 		var url = PushWoosh.baseurl + 'pushStat';
-		
+
 		var params = {
 				request : {
 					application : PushWoosh.appCode,
@@ -96,11 +96,11 @@ var PushWoosh = {
 		payload = (params) ? JSON.stringify(params) : '';
 		PushWoosh.helper(url, method, payload, lambda, lambdaerror);
 	},
-		
+
 	setTags : function(tagsJsonObject, lambda, lambdaerror) {
 		var method = 'POST';
 		var url = PushWoosh.baseurl + 'setTags';
-		
+
 		var params = {
 				request : {
 					application : PushWoosh.appCode,
@@ -112,7 +112,7 @@ var PushWoosh = {
 		payload = (params) ? JSON.stringify(params) : '';
 		PushWoosh.helper(url, method, payload, lambda, lambdaerror);
 	},
-	
+
 	helper : function(url, method, params, lambda, lambdaerror) {
 		var xhr = new XMLHttpRequest();
 		xhr.onreadystatechange = function() {
