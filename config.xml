@@ -9,7 +9,9 @@
     <name>Cocktail Napkin Studios Live</name>
 
     <description>
-		Tune in to live streaming audio sessions of "The Shakes", a podcast hosted by Mule Radio Syndicate and produced by Cocktail Napkin Studios.\r\n\r\nReceive push notifications when new episodes are being recorded and find out how you can participate in that episode's discussion. Or, simply open the app any time to listen to streaming archives of the show. It's like having the world of creativity in your pocket!
+		Tune in to live streaming audio sessions of "The Shakes", a podcast hosted by Mule Radio Syndicate and produced by Cocktail Napkin Studios.
+
+Receive push notifications when new episodes are being recorded and find out how you can participate in that episode's discussion. Or, simply open the app any time to listen to streaming archives of the show. It's like having the world of creativity in your pocket!
     </description>
 
     <author href="http://cocktailnapkinstudios.com" email="hello@cocktailnapkinstudios.com">
@@ -27,10 +29,6 @@
 	<feature name="http://api.phonegap.com/1.0/media" />
 	<feature name="http://api.phonegap.com/1.0/network" />
 	<feature name="http://api.phonegap.com/1.0/notification" />
-    <feature name="PushNotification">
-        <param name="ios-package" value="PushNotification" />
-    </feature>
-
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="3.3.0" />          <!-- all: current version of PhoneGap -->
