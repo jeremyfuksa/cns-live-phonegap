@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.cocktailnapkinstudios.CNSLiveStream" version="1.2.10">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.cocktailnapkinstudios.CNSLiveStream" version="1.2.11">
 
     <name>Cocktail Napkin Studios Live</name>
 
@@ -28,7 +28,7 @@ Receive push notifications when new episodes are being recorded and find out how
 	<feature name="http://api.phonegap.com/1.0/notification"/>
     -->
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version" value="3.3.0"/>          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version" value="2.9.0"/>          <!-- all: current version of PhoneGap -->
     <preference name="orientation" value="portrait"/>        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device" value="handset"/>      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen" value="true"/>           <!-- all: hides the status bar at the top of the screen -->
