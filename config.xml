@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.cocktailnapkinstudios.CNSLiveStream"
-        version   = "1.2.2">
+        version   = "1.2.3">
 
     <name>Cocktail Napkin Studios Live</name>
 
@@ -34,7 +34,7 @@ Receive push notifications when new episodes are being recorded and find out how
     <preference name="phonegap-version"           value="3.3.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="handset" />      <!-- all: possible values handset, tablet, or universal -->
-    <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="webviewbounce"              value="false" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
     <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
     <preference name="stay-in-webview"            value="false" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
@@ -73,5 +73,4 @@ Receive push notifications when new episodes are being recorded and find out how
 
     <!-- Define access to external domains. -->
     <access origin="*"/>
-    <access origin="*.pushwoosh.com" />
 </widget>
