@@ -4,14 +4,12 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.cocktailnapkinstudios.CNSLiveStream"
-        version   = "1.2.0">
+        version   = "1.2.1">
 
     <name>Cocktail Napkin Studios Live</name>
 
     <description>
-		Tune in to live streaming audio sessions of "The Shakes", a podcast hosted by Mule Radio Syndicate and produced by Cocktail Napkin Studios. 
-
-		Receive push notifications when new episodes are being recorded and find out how you can participate in that episode's discussion. Or, simply open the app any time to listen to streaming archives of the show. It's like having the world of creativity in your pocket!
+		Tune in to live streaming audio sessions of "The Shakes", a podcast hosted by Mule Radio Syndicate and produced by Cocktail Napkin Studios.\r\n\r\nReceive push notifications when new episodes are being recorded and find out how you can participate in that episode's discussion. Or, simply open the app any time to listen to streaming archives of the show. It's like having the world of creativity in your pocket!
     </description>
 
     <author href="http://cocktailnapkinstudios.com" email="hello@cocktailnapkinstudios.com">
