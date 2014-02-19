@@ -39,8 +39,8 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
-		AB49716D526F467DBE7672F8 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB44E12248C45DC9CE20CE9 /* AppDelegate+notification.m */; };
-		962F4B7CF91D420EA2618A31 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1DF5752CAA4FB9A3ACECC7 /* PushPlugin.m */; };
+		885F29BAC1BA421F9D523779 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = AF847DC9E29A41B2991B8031 /* AppDelegate+notification.m */; };
+		58A81B12EE614FC38D81593B /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDA7AF1635245A1BBC0E9F1 /* PushPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,10 +102,10 @@
 		8D1107310486CEB800E47090 /* Cocktail Napkin Studios Live-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Cocktail Napkin Studios Live-Info.plist"; path = "../Cocktail Napkin Studios Live-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Cocktail Napkin Studios Live/config.xml"; sourceTree = "<group>"; };
-		7BB44E12248C45DC9CE20CE9 /* AppDelegate+notification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "com.phonegap.plugins.PushPlugin/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		1C1DF5752CAA4FB9A3ACECC7 /* PushPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushPlugin.m"; path = "com.phonegap.plugins.PushPlugin/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		68E51E3F027146769A0E792E /* AppDelegate+notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "com.phonegap.plugins.PushPlugin/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		E1D3623732E7402D918FD974 /* PushPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushPlugin.h"; path = "com.phonegap.plugins.PushPlugin/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AF847DC9E29A41B2991B8031 /* AppDelegate+notification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "com.phonegap.plugins.PushPlugin/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		CDDA7AF1635245A1BBC0E9F1 /* PushPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PushPlugin.m"; path = "com.phonegap.plugins.PushPlugin/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		2D6C0EF344A94D6DBE90A746 /* AppDelegate+notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "com.phonegap.plugins.PushPlugin/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C07983F74809417CB4DAB710 /* PushPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PushPlugin.h"; path = "com.phonegap.plugins.PushPlugin/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,10 +224,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				7BB44E12248C45DC9CE20CE9 /* AppDelegate+notification.m */,
-				1C1DF5752CAA4FB9A3ACECC7 /* PushPlugin.m */,
-				68E51E3F027146769A0E792E /* AppDelegate+notification.h */,
-				E1D3623732E7402D918FD974 /* PushPlugin.h */,
+				AF847DC9E29A41B2991B8031 /* AppDelegate+notification.m */,
+				CDDA7AF1635245A1BBC0E9F1 /* PushPlugin.m */,
+				2D6C0EF344A94D6DBE90A746 /* AppDelegate+notification.h */,
+				C07983F74809417CB4DAB710 /* PushPlugin.h */,
 			);
 			name = Plugins;
 			path = "Cocktail Napkin Studios Live/Plugins";
@@ -413,8 +413,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				AB49716D526F467DBE7672F8 /* AppDelegate+notification.m in Sources */,
-				962F4B7CF91D420EA2618A31 /* PushPlugin.m in Sources */,
+				885F29BAC1BA421F9D523779 /* AppDelegate+notification.m in Sources */,
+				58A81B12EE614FC38D81593B /* PushPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +494,10 @@
 				);
 				PRODUCT_NAME = "Cocktail Napkin Studios Live";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jeremyfuksa/_Git/cns-live-phonegap/platforms/ios",
+				);
 			};
 			name = Debug;
 		};
@@ -525,6 +529,10 @@
 				);
 				PRODUCT_NAME = "Cocktail Napkin Studios Live";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jeremyfuksa/_Git/cns-live-phonegap/platforms/ios",
+				);
 			};
 			name = Release;
 		};
