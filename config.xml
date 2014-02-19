@@ -45,7 +45,6 @@ Receive push notifications when new episodes are being recorded and find out how
 	<preference name="DisallowOverscroll" value="true"/>
 
     <!-- Plugins can also be added here. -->
-    <!-- <gap:plugin name="com.phonegap.plugins.PushPlugin"/> -->
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.0.1"/>
 
 	
