@@ -1,0 +1,395 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wi",
+				"width"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"imp",
+				"import"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 970,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.xml",
+			"settings":
+			{
+				"buffer_size": 5819,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 312.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jeremyfuksa/_Git/cns-live-phonegap/plugins/com.phonegap.plugins.PushPlugin/Example/www/index.html",
+		"/Users/jeremyfuksa/_Git/cns-live-phonegap/www/js/index.js",
+		"/Users/jeremyfuksa/_Git/cns-live-phonegap/www/index.html",
+		"/Users/jeremyfuksa/Desktop/cns-live/www/js/index.js",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/Snippets /header.php",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/pages/index.php",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/observations/post.php",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/observations/index.php",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/people/person.php",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/people/index.php",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/contact/index.php",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/Snippets /footer.php",
+		"/Volumes/kuhnwitt.clickfarminteractive.com/pages/work-landing.php",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/ie.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/_ie8-base.scss",
+		"/Users/jeremyfuksa/WebstormProjects/design-presentation-mixture-project/models/_global.json",
+		"/Users/jeremyfuksa/WebstormProjects/design-presentation-mixture-project/mixture.json",
+		"/Users/jeremyfuksa/WebstormProjects/KW/mixture.json",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/_extends.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/_ie9-base.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/styles.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/Bootstrap/_mixins.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/common/scripts/libs/jquery/dcmegamenu/jquery.dcmegamenu.1.3.3.js",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/_ie10-base.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/ie8.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/ie9.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/_ie9.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/_ie8.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/_ie10.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/common/scripts/main.js",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/ie10.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/_dc-mega-menu.scss",
+		"/Users/jeremyfuksa/_SVN/ResponsibleSports (trunk)/ResponsibleSports.Web/sass/Bootstrap/bootstrap.scss",
+		"/Users/jeremyfuksa/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jeremyfuksa/_Git/ClickfarmWebsite/models/our-damn-work.json",
+		"/Applications/WebStorm.app/bin/idea.properties",
+		"/Users/jeremyfuksa/RubymineProjects/jeremyfuksa/_config.yml",
+		"/Users/jeremyfuksa/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"endif",
+			" %",
+			"mixture.url",
+			"% ",
+			"main-nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/if",
+			"",
+			"last_segment",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								637,
+								637
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "cns-live-phonegap.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 311.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
