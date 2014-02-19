@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.cocktailnapkinstudios.CNSLiveStream"
-        version   = "1.2.3">
+        version   = "1.2.4">
 
     <name>Cocktail Napkin Studios Live</name>
 
@@ -49,6 +49,7 @@ Receive push notifications when new episodes are being recorded and find out how
 
     <!-- Plugins can also be added here. -->
     <gap:plugin name="com.phonegap.plugins.PushPlugin" />
+    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 
 	
     <!-- Define app icon for each platform. -->
