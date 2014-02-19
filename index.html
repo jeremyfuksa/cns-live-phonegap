@@ -6,13 +6,15 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
         <title>Cocktail Napkin Studios Live</title>
+    </head>
+    <body>
+        <script src="js/index.js"></script>
         <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/vendor/date.js"></script>
+       
         <script src="js/PushNotification.js"></script>
         <script src="js/pushwoosh.js"></script>
-	    <script src="js/plugins.js"></script>
-		<script src="js/player.js"></script>
-	    <script src="js/index.js"></script>
+        
+        
         <script type="text/javascript">
             var pushNotification;
             function onDeviceReady() {
@@ -129,37 +131,12 @@
 
             document.addEventListener('deviceready', onDeviceReady, true);
          </script>
-    </head>
-    <body onload="init();return false;">
-        <div class="app">
-           <section class="audio-player">
-    		    <header class="now-playing">
-    		        <div class="pull-left">
-    	    			<h2>Currently Playing:</h2>
-    	    			<p id="currentTrack">Crybaby Dirtybottom</p>
-    		        </div>
-    		        <div class="pull-right transport">
-    		            <div id="playbutton"><a href="#" onclick="html5audio.play();getStreamInfo();return false;"><img src="img/btn-play.png"></a></div>
-    					<div id="stopbutton" class="pause hidden"><a href="#" onclick="html5audio.pause();return false;"><img src="img/btn-pause.png"></a></div>
-    					<div id="textposition" class="timecode">Loading</div>
-    		        </div>
-	    		</header>
-	    		<section class="album-art">
-					<img id="albumArt" src="img/offline.png">
-    	    	</section>
-    	    	<aside class="banner-ad">
-    	    	    <a class="beer-buddy" href="#" onclick="beerbuddy();"><img id="beerBuddyBanner" src="img/beer-buddy-iphone5.png"></a>
-    	    	</aside>
-    		</section>
-		    <footer>
-		        <h2>Next Live Recording:</h2>
-	    	    <p id="nextSession">&nbsp;</p>
-		    </footer>
+        <div id="home">
+            <div id="app-status-div">
+                <ul id="app-status-ul">
+                    <li>Cordova PushNotification Plugin Demo</li>
+                </ul>
+            </div>
         </div>
-		<script>
-			playButton = document.getElementById('playbutton');
-			stopButton = document.getElementById('stopbutton');
-			textPosition = document.getElementById('textposition');
-		</script>
     </body>
 </html>
