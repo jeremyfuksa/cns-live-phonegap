@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.cocktailnapkinstudios.CNSLiveStream" version="1.2.15">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.cocktailnapkinstudios.CNSLiveStream" version="1.2.16">
 
     <name>Cocktail Napkin Studios Live</name>
 
@@ -13,22 +13,12 @@ Receive push notifications when new episodes are being recorded and find out how
     <author href="http://cocktailnapkinstudios.com" email="hello@cocktailnapkinstudios.com">
         Cocktail Napkin Studios
     </author>
-	
+
 	<gap:platform name="ios"/>
 	<gap:platform name="android"/>
 
-    <!--
-        Enable individual API permissions here.
-        The "device" permission is required for the 'deviceready' event.
-    -->
     <feature name="http://api.phonegap.com/1.0/device"/>
-    <!--
-	<feature name="http://api.phonegap.com/1.0/media"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
-	<feature name="http://api.phonegap.com/1.0/notification"/>
-    -->
-    <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version" value="2.9.0"/>          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version" value="2.9.0"/>
     <preference name="orientation" value="portrait"/>        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device" value="handset"/>      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen" value="true"/>           <!-- all: hides the status bar at the top of the screen -->
@@ -46,8 +36,9 @@ Receive push notifications when new episodes are being recorded and find out how
 
     <!-- Plugins can also be added here. -->
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.0.1"/>
+    <gap:plugin name="com.adobe.plugins.gaplugin"/>
 
-	
+
     <!-- Define app icon for each platform. -->
     <icon src="icon.png"/>
     <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi"/>

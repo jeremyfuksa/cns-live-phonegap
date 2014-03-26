@@ -24,10 +24,10 @@ function registerPushwooshIOS() {
 	document.addEventListener('push-notification', function(event) {
 				var notification = event.notification;
 				navigator.notification.alert(notification.aps.alert);
-				
+
 				//to view full push payload
 				//navigator.notification.alert(JSON.stringify(notification));
-				
+
 				//reset badges on icon
 				pushNotification.setApplicationIconBadgeNumber(0);
 			  });
@@ -42,7 +42,7 @@ function registerPushwooshIOS() {
 										console.warn('failed to register : ' + JSON.stringify(status));
 										navigator.notification.alert(JSON.stringify(['failed to register ', status]));
 									});
-	
+
 	//reset badges on start
 	pushNotification.setApplicationIconBadgeNumber(0);
 }
@@ -57,8 +57,8 @@ function onPushwooshiOSInitialized(pushToken)
 							 function(error) {
 								console.warn('get tags error: ' + JSON.stringify(error));
 							 });
-	 
-	//start geo tracking. PWTrackSignificantLocationChanges - Uses GPS in foreground, Cell Triangulation in background. 
+
+	//start geo tracking. PWTrackSignificantLocationChanges - Uses GPS in foreground, Cell Triangulation in background.
 	pushNotification.startLocationTracking('PWTrackSignificantLocationChanges',
 									function() {
 										   console.warn('Location Tracking Started');
@@ -105,37 +105,37 @@ function onPushwooshAndroidInitialized(pushToken)
 	console.warn('push token: ' + pushToken);
 
 	var pushNotification = window.plugins.pushNotification;
-	
+
 	pushNotification.getTags(function(tags) {
 							console.warn('tags for the device: ' + JSON.stringify(tags));
 						 },
 						 function(error) {
 							console.warn('get tags error: ' + JSON.stringify(error));
 						 });
-	 
+
 
 	//set multi notificaiton mode
 	//pushNotification.setMultiNotificationMode();
 	//pushNotification.setEnableLED(true);
-	
+
 	//set single notification mode
 	//pushNotification.setSingleNotificationMode();
-	
+
 	//disable sound and vibration
 	//pushNotification.setSoundType(1);
 	//pushNotification.setVibrateType(1);
-	
+
 	pushNotification.setLightScreenOnNotification(false);
-	
+
 	//goal with count
 	//pushNotification.sendGoalAchieved({goal:'purchase', count:3});
-	
+
 	//goal with no count
 	//pushNotification.sendGoalAchieved({goal:'registration'});
 
 	//setting list tags
 	//pushNotification.setTags({"MyTag":["hello", "world"]});
-	
+
 	//settings tags
 	pushNotification.setTags({deviceName:"hello", deviceId:10},
 									function(status) {
@@ -144,7 +144,7 @@ function onPushwooshAndroidInitialized(pushToken)
 									function(status) {
 										console.warn('setTags failed');
 									});
-		
+
 	function geolocationSuccess(position) {
 		pushNotification.sendLocation({lat:position.coords.latitude, lon:position.coords.longitude},
 								 function(status) {
@@ -154,24 +154,24 @@ function onPushwooshAndroidInitialized(pushToken)
 									  console.warn('sendLocation failed');
 								 });
 	};
-		
+
 	// onError Callback receives a PositionError object
 	//
 	function geolocationError(error) {
 		alert('code: '    + error.code    + '\n' +
 			  'message: ' + error.message + '\n');
 	}
-	
+
 	function getCurrentPosition() {
 		navigator.geolocation.getCurrentPosition(geolocationSuccess, geolocationError);
 	}
-	
+
 	//greedy method to get user position every 3 second. works well for demo.
 //	setInterval(getCurrentPosition, 3000);
-		
+
 	//this method just gives the position once
 //	navigator.geolocation.getCurrentPosition(geolocationSuccess, geolocationError);
-		
+
 	//this method should track the user position as per Phonegap docs.
 //	navigator.geolocation.watchPosition(geolocationSuccess, geolocationError, { maximumAge: 3000, enableHighAccuracy: true });
 
@@ -194,7 +194,19 @@ function onPushwooshAndroidInitialized(pushToken)
 	}
 }
 
+function successHandler() {
+  alert("success");
+  return false;
+}
+
+function errorHandler() {
+  alert("error");
+  return false;
+}
+
 var app = {
+    var gaPlugin;
+
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -212,6 +224,8 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         initPushwoosh();
+        gaPlugin = window.plugins.gaPlugin;
+        gaPlugin.init(successHandler, errorHandler, "UA-37374823-5", 10);
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
