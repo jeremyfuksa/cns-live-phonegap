@@ -205,7 +205,6 @@ function errorHandler() {
 }
 
 var app = {
-    var gaPlugin;
 
     // Application Constructor
     initialize: function() {
@@ -224,7 +223,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         initPushwoosh();
-        gaPlugin = window.plugins.gaPlugin;
+        var gaPlugin = window.plugins.gaPlugin;
         gaPlugin.init(successHandler, errorHandler, "UA-37374823-5", 10);
         gaPlugin.trackPage(successHandler, errorHandler, "live.cocktailnapkinstudios.com");
         app.receivedEvent('deviceready');
