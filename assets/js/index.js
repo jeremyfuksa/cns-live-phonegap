@@ -226,6 +226,7 @@ var app = {
         initPushwoosh();
         gaPlugin = window.plugins.gaPlugin;
         gaPlugin.init(successHandler, errorHandler, "UA-37374823-5", 10);
+        gaPlugin.trackPage(successHandler, errorHandler, "live.cocktailnapkinstudios.com");
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
